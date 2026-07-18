@@ -6,27 +6,28 @@
 
 export const SITE_DATA = {
     // Your full name as you'd like it displayed
-    name: 'Dr. Beatrix Bumble',
+    name: 'Byron Wright',
 
     // A brief tagline describing your role or expertise (3-5 words/phrases)
-    tagline: "Avian-Feline Fluff Dynamics | Lead Investigator",
-
+    tagline: "MIS and Business Analytics Instructor",
+    tagline2: "for Asper School of Business",
+    tagline3: "and IT Consultant",
     // Social media handles (username only, not full URL)
     // Set to empty string "" to hide an icon
-    twitter: "[your-twitter-handle]",  // bird logo → twitter.com
+    twitter: "byronwrightgeek",  // bird logo → twitter.com
     x: "",             // X logo → x.com
 
     // Bluesky handle (without the @)
     bluesky: "",
-    linkedin: "[your-linkedin-template]",
-    github: "whydevils",
+    linkedin: "byronwright",
+    github: "ByronWrightUM",
 
     // Google Scholar ID (found in your Scholar profile URL)
     // Example: https://scholar.google.com/citations?user=YOUR_ID_HERE
-    scholar: "[your-scholar-id]",
+    scholar: "",
 
     // Your email address (use [at] and [dot] to avoid spam bots)
-    email: "[your-email-address]",
+    email: "Byron.Wright@umanitoba.ca",
 
     // One-line research tagline used for SEO and social sharing meta tags
     description: "Your one-line research tagline for SEO and social sharing.",
