@@ -1,0 +1,16 @@
+---
+layout: '../../layouts/BlogPost.astro'
+title: 'Blog Page Title'
+date: 'YYYY-MM-DD'
+description: 'Enter blog post summary here'
+tags: ['byronblog']
+
+// tags currently in use (to be updated over time)
+
+---
+Copy this file and save with .md extension
+Enter blog content here. This file is markdown format.
+To edit in WYSIWYG open with Markdown for Humans extension
+images are expected in ./images when added via Markdown for Humans Extension
+
+
