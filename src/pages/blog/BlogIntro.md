@@ -4,11 +4,9 @@ title: 'Introduction'
 date: '2026-07-26'
 description: 'General information about how this website was created'
 tags: ['General']
-
 // tags currently in use (to be updated over time)
 // 'General','AI','Teaching','Learning','Cybersecurity','DB and Data'
 // 'IDM 1020','MIS 3520,'MIS 3500'
-
 ---
 
 What's up with creating a new web site in 2026? Doesn't everyone already have a web site if they need one?
