@@ -2,24 +2,23 @@
 import Layout from '../../layouts/Layout.astro';
 import '../../styles/blog.css';
 
-interface Post {
+interface Course {
     title: string;
     date: string;
     description?: string;
     tags?: string[];
-    url: string;
 }
 
-const postFiles = import.meta.glob<{ frontmatter: Post }>('./*.md', { eager: true });
+const courseFiles = import.meta.glob<{ frontmatter: Course }>('./**/*.md', { eager: true });
 
-const sorted: Post[] = Object.entries(postFiles)
+const sorted: (Course & { url: string })[] = Object.entries(courseFiles)
     .map(([path, mod]) => ({
         ...mod.frontmatter,
-        url: `${import.meta.env.BASE_URL}blog/` + path.replace('./', '').replace('.md', '') + '/',
+        url: `${import.meta.env.BASE_URL}courses/` + path.replace('./', '').replace('.md', '') + '/',
     }))
     .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
 
-const allTags = [...new Set(sorted.flatMap(p => p.tags ?? []))].sort();
+const allTags = [...new Set(sorted.flatMap(course => course.tags ?? []))].sort();
 
 function formatDate(dateStr: string) {
     const match = dateStr.match(/^(\d{4})-(\d{2})-(\d{2})/);
@@ -36,19 +35,14 @@ function formatDate(dateStr: string) {
 }
 ---
 
-<Layout pageTitle="Blog">
+<Layout pageTitle="Courses">
     <div class="page-container">
-        <h1>Blog</h1>
+        <h1>Courses</h1>
 
         <p class="intro-text">
-            This blog contains my thoughts on teaching and various technology topics. Some of these
-            are based on content I've posted for students in class.
-        </p>
-        <p class="intro-text">
-            I have a technical blog that I used to record lessons learned from my
-            consulting work.</br> You can see it at:
-            <a href="https://byronwright.blogspot.com" target="_blank">byronwright.blogpost.com</a>
-
+            The course registration system for the University of Manitoba has very limited course descriptions
+            available. Below is a list of courses that I teach and with a detailed description of the course content and
+            and some of the assignments.  
         </p>
 
         <div class="blog-tag-filters">
@@ -59,18 +53,18 @@ function formatDate(dateStr: string) {
         </div>
 
         <div class="blog-grid" id="blog-grid">
-            {sorted.map(post => (
-                <a href={post.url} class="blog-card" data-tags={JSON.stringify(post.tags ?? [])}>
+            {sorted.map(course => (
+                <a href={course.url} class="blog-card" data-tags={JSON.stringify(course.tags ?? [])}>
                     <div class="blog-card-inner">
-                        <span class="blog-card-date">{formatDate(post.date)}</span>
+                        <span class="blog-card-date">{formatDate(course.date)}</span>
                         <div>
-                            <h2 class="blog-card-title">{post.title}</h2>
-                            {post.description && (
-                                <p class="blog-card-description">{post.description}</p>
+                            <h2 class="blog-card-title">{course.title}</h2>
+                            {course.description && (
+                                <p class="blog-card-description">{course.description}</p>
                             )}
-                            {post.tags && (
+                            {course.tags && (
                                 <div class="blog-card-tags">
-                                    {post.tags.map((tag: string) => (
+                                    {course.tags.map((tag: string) => (
                                         <span class="tag">{tag}</span>
                                     ))}
                                 </div>
