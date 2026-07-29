@@ -66,6 +66,12 @@
     align-items: baseline;
 }
 
+.courses-grid .blog-card-inner {
+    display: block;
+    grid-template-columns: none;
+    gap: 0;
+}
+
 .blog-card-date {
     font-size: 0.85rem;
     color: var(--color-text-muted);
