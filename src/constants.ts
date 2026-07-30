@@ -30,7 +30,7 @@ export const SITE_DATA = {
     email: "Byron.Wright@umanitoba.ca",
 
     // One-line research tagline used for SEO and social sharing meta tags
-    description: "Your one-line research tagline for SEO and social sharing.",
+    description: "MIS and Business Analytics Instructor for Asper School of Business and IT Consultant",
 
     // Base URL of your deployed site (no trailing slash), e.g. "https://your-username.github.io"
     // Used for Open Graph tags. Leave empty if you haven't deployed yet.
