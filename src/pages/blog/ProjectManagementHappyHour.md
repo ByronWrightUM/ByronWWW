@@ -1,8 +1,8 @@
 ---
 layout: '../../layouts/BlogPost.astro'
-title: 'Blog Page Title'
-date: 'YYYY-MM-DD'
-description: 'Enter blog post summary here'
+title: 'Project Management Happy Hour Podcast'
+date: '2026-08-12'
+description: 'The PM Happy Hour podcast provides useful insight about project management.'
 tags: ['Interesting Content']
 ## tags currently in use (to be updated over time)
 ## 'General','AI','Teaching','Learning','Cybersecurity','DB and Data','Interesting Content'
