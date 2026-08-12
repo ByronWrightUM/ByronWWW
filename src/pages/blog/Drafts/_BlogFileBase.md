@@ -5,7 +5,7 @@ date: 'YYYY-MM-DD'
 description: 'Enter blog post summary here'
 tags: ['byronblog']
 ## tags currently in use (to be updated over time)
-## 'General','AI','Teaching','Learning','Cybersecurity','DB and Data'
+## 'General','AI','Teaching','Learning','Cybersecurity','DB and Data','Interesting Content'
 ## 'IDM 1020','MIS 3520,'MIS 3500'
 ---
 Copy this file and save with .md extension
