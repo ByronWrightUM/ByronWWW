@@ -53,21 +53,3 @@ You can also have one AI write code and have another AI review the code. That gi
 For documents, you could also have one AI review the document created by another AI. But, in most cases, you'll probably need a manual review. There have been some high profile instances of major consulting firms (who are very AI-first) submitting reports with critical inaccuracies. Similarly, there have been instances of legal documents submitted to court that reference precedents that don't exist.
 
 In dedicated AI systems that perform tasks like automating invoice data entry, they can assign a probablilty to accurate recognition of the data. For example, the AI thinks there's a 95% chance it correctly identified the data from the incoming PDF. In such a system, you can assign a probability level where the document is set aside for manual review and approval.
-
-# Becoming an AI-First Organization
-
-Long run, the real advantage of AI is the ability to use and correlate large amounts of information quickly. If we do that properly we should be able to scale without having a ton of people. We can also do some things that were not realistic before due to time or data constraints.
-
-It seems that everyone has their own slightly different version of an AI-first organization. Here's how I tend to think of it.
-
-> An AI-first organization is one where we use AI as the first option and human intervention for things that AI can't do.
-
-Over the last couple of years where organizations are trying to do everything by using AI, this is what they're trying to do. However, the hard part is knowing what AI can and can't do well. And, how AI should be supervised. Everyone is still learning.
-
-To become AI-first and take advantage of AI as much as possible, you need to be willing to rework your business processes and not just automate bits. Something like having a chatbot handle the first line of customer inquiries may require significant work to have the necessary information available for AI training. You also need to consider how to trigger human intervention when required.
-
-- Is this chatbot just an alternate interface to search the web site with static data? If so, it's pretty safe, but not exactly tranformative.
-- Does the chatbot make suggestions based on the user's unique scenario? Cool. This is helpful. Now we've added an advisor that customers might find valuable.
-- Does the chatbot act as an interface to our other systems? For example, on an airline website, the chatbot might allow you to do a booking because it can interface with the backend booking system (the deterministic backend system could still enforce pricing and control payment).
-
-I've used a chatbot for the examples above because I think it's understandable for us from a customer service perspective. I've certainly noticed the trend for this to be a first line of support for many companies now. However, at a personal level, I'm yet to find a customer service chatbot that isn't frustrating to interact with. So, it's not easy to do.
