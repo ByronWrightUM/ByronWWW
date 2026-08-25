@@ -2,7 +2,7 @@
 layout: '../../layouts/BlogPost.astro'
 title: 'LLM Token Prediction Example'
 date: '2026-08-25'
-description: 'A simplified example of how LLMs perform tokenize data and create content'
+description: 'A simplified example of how LLMs tokenize data and create content'
 tags: ['AI']
 ## tags currently in use (to be updated over time)
 ## 'General','AI','Teaching','Learning','Cybersecurity','DB and Data','Interesting Content'
