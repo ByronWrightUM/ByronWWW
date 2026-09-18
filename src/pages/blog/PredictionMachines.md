@@ -13,7 +13,7 @@ Before AI became all the rage with large language models (LLMs) we had self-driv
 
 I read this book back in 2020 before LLMs were the big thing but I still think it's relevant today for general understanding.
 
-![image](./images/pasted_20260918-214843.png)
+![image](./images/PredictionMachines.png)
 
 My review from 2020:
 
