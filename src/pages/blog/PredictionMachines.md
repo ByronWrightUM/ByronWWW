@@ -17,8 +17,8 @@ I read this book back in 2020 before LLMs were the big thing but I still think i
 
 My review from 2020:
 
-> This is a great business-level book that discusses AI. Reading this book I had a real lightbulb moment when there was a discussion of separating judgement from prediction of outcomes in decision making. When AI wasn't making the judgement and was just a tool in the decision making process I saw clearly how it could be used in many instances. There's a lot more to the book including how it might affect employment, different strategies that business might use, the value of data for learning (and how the value of historical data drops once the learning is done).  
->   
+> This is a great business-level book that discusses AI. Reading this book I had a real lightbulb moment when there was a discussion of separating judgement from prediction of outcomes in decision making. When AI wasn't making the judgement and was just a tool in the decision making process I saw clearly how it could be used in many instances. There's a lot more to the book including how it might affect employment, different strategies that business might use, the value of data for learning (and how the value of historical data drops once the learning is done).
+
 > This book does not discuss AI at a technical level. I found it quite accessible as someone with an interest in technology.
 
 The authors are professors at the University of Toronto Rotman School of Management.
