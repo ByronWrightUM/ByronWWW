@@ -1,6 +1,6 @@
 ---
 layout: '../../layouts/BlogPost.astro'
-title: 'Manage Student Meetings with Micrsoft Bookings'
+title: 'Manage Student Meetings with Microsoft Bookings'
 date: '2026-09-12'
 description: 'Microsoft Bookings enhances your availability to students'
 tags: ['Teaching']
