@@ -23,4 +23,4 @@ My review from 2020:
 
 The authors are professors at the University of Toronto Rotman School of Management.
 
-They have a followup book **Power and Prediction: The Distruptive Economics of Artificial Intelligence**, but I haven't gotten around to reading that one.
+They have a followup book ***Power and Prediction: The Distruptive Economics of Artificial Intelligence***, but I haven't gotten around to reading that one.
