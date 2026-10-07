@@ -13,4 +13,4 @@ If you're interested in intelligent political discussion that incorporates view 
 - [The Herle Burly Podcast](https://www.theherleburly.com/). A wide variety of guest discussing political issues of the day. Generally, from the perspective of the issue rather than which politician is winning.
 - [Curse of Politics](https://www.airquotesmedia.com/curseofpolitics). Nitty gritty discussions from political strategists about how the political parties and politicians should be maneuvering.
 
-Based on the advertisements, I think these podcasts are listed to by the people in power because CN and Telus don't need to talk to me that much.
+Based on the advertisements, I think these podcasts are listened to by the people in power because CN and Telus don't need to talk to me that much.
