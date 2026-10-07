@@ -9,9 +9,13 @@ tags: ['Interesting Content']
 ## 'IDM 1020','MIS 3520,'MIS 3500'
 ---
 
+**The Surprising Factors That Determine the Fate of Every Project, from Home Renovations to Space Exploration and Everything In Between**
+
 As someone that works in IT and often sees projects that go sideways, I really appreciated this book. The book is written in a very accessible style that you don't need to be a project manager to understand or be engaged by. As I read this book, it was a constant stream of insight and understanding.
 
 Bent Flyvbjerg is the expert on large projects. But co-author Dan Gardner probably deserves credit for the writing style. I've read several of Dan Gardner's other non-fiction books that explore similar topics. They're always interesting and accessible. 
+
+![image](./images/HowBigThingsGetDone.png)
 
 Here are a few bullet points stolen from the book cover:
 
