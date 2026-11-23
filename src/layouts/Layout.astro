@@ -22,6 +22,12 @@ const title = `${SITE_DATA.name}${pageTitle ? ` | ${pageTitle}` : ""}`;
 		<meta property="og:description" content={description} />
 		<meta property="og:type" content="website" />
 		<script is:inline>
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){window.dataLayer.push(arguments);}
+			gtag('js', new Date());
+		</script>
+		<script async src="https://www.googletagmanager.com/gtm.js?id=GTM-TW5DKZ6Z" is:inline></script>
+		<script is:inline>
 			const theme = (() => {
 				if (typeof localStorage !== 'undefined' && localStorage.getItem('theme')) {
 					return localStorage.getItem('theme');
